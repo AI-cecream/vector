@@ -60,7 +60,7 @@ guidata(hObject, handles);
 
 % UIWAIT makes vectorGUI wait for user response (see UIRESUME)
 % uiwait(handles.vectorFigure);
-set(handles.optPopupMenu, 'string', {'add(+)','minus(-)','transvection(¡¤)','cross(¡Á)'}); % ,'mix(¡¤&¡Á)'
+set(handles.optPopupMenu, 'string', {'add(+)','minus(-)','transvection(¡¤)','cross(¡Á)', 'animation'}); % ,'mix(¡¤&¡Á)'
 
 % --- Outputs from this function are returned to the command line.
 function varargout = vectorGUI_OutputFcn(hObject, eventdata, handles) 

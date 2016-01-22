@@ -13,7 +13,9 @@ switch opt
         disp(np);
     case 4 % ¡Á
         p = cross(p1, p2);
-    % case 5 % ¡¤&¡Á
+    case 5 % animation
+        drawVecAnimation(p1, p2, handleObj);
+        return;
 end
 cla(handleObj);
 axes(handleObj);
