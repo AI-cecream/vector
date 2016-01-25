@@ -22,7 +22,7 @@ function varargout = vectorGUI(varargin)
 
 % Edit the above text to modify the response to help vectorGUI
 
-% Last Modified by GUIDE v2.5 19-Jan-2016 16:52:31
+% Last Modified by GUIDE v2.5 25-Jan-2016 15:17:54
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -247,19 +247,164 @@ function vectorFigure_ButtonDownFcn(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 
+
+function xVec1Edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to xVec1Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of xVec1Edit_S as text
+%        str2double(get(hObject,'String')) returns contents of xVec1Edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function xVec1Edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to xVec1Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function yVec1Edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to yVec1Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of yVec1Edit_S as text
+%        str2double(get(hObject,'String')) returns contents of yVec1Edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function yVec1Edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to yVec1Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function zVec1Edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to zVec1Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of zVec1Edit_S as text
+%        str2double(get(hObject,'String')) returns contents of zVec1Edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function zVec1Edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to zVec1Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function xVec2Edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to xVec2Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of xVec2Edit_S as text
+%        str2double(get(hObject,'String')) returns contents of xVec2Edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function xVec2Edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to xVec2Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function yVec2Edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to yVec2Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of yVec2Edit_S as text
+%        str2double(get(hObject,'String')) returns contents of yVec2Edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function yVec2Edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to yVec2Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function zVec2Edit_S_Callback(hObject, eventdata, handles)
+% hObject    handle to zVec2Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of zVec2Edit_S as text
+%        str2double(get(hObject,'String')) returns contents of zVec2Edit_S as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function zVec2Edit_S_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to zVec2Edit_S (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
 % --- Executes on button press in calcBtn.
 function calcBtn_Callback(hObject, eventdata, handles)
 % hObject    handle to calcBtn (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
+x1_s = get(handles.xVec1Edit_S, 'string');
+y1_s = get(handles.yVec1Edit_S, 'string');
+z1_s = get(handles.zVec1Edit_S, 'string');
+x2_s = get(handles.xVec2Edit_S, 'string');
+y2_s = get(handles.yVec2Edit_S, 'string');
+z2_s = get(handles.zVec2Edit_S, 'string');
 x1 = get(handles.xVec1Edit, 'string');
 y1 = get(handles.yVec1Edit, 'string');
 z1 = get(handles.zVec1Edit, 'string');
 x2 = get(handles.xVec2Edit, 'string');
 y2 = get(handles.yVec2Edit, 'string');
 z2 = get(handles.zVec2Edit, 'string');
-p1=[str2double(x1), str2double(y1), str2double(z1)];
-p2=[str2double(x2), str2double(y2), str2double(z2)];
+p1=[str2double(x1_s), str2double(y1_s), str2double(z1_s); str2double(x1), str2double(y1), str2double(z1)];
+p2=[str2double(x2_s), str2double(y2_s), str2double(z2_s); str2double(x2), str2double(y2), str2double(z2)];
 opt = get(handles.optPopupMenu, 'value');
 drawVectors(p1, p2, opt, handles.outputAxes);

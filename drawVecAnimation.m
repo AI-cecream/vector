@@ -29,7 +29,7 @@ arrow3([0 0 0],vecH,'2.5s',1.5,[],0);
 text(vecH(1),vecH(2),vecH(3),'\bfvecH');
 end
 grid on
-nT = 2000; %650;
+nT = 650;
 hArrow = quiver3(0,0,0,0,0,0);
 hText = text(0,0,0,'');
 for it=1:nT % while 1==1
